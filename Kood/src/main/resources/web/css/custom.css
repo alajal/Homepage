@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding-left: 0;
+}
+
+.main-container {
+    margin-top: 20%;
+    list-style: none;
+    text-align: center;
+    vertical-align:top;
+}
+
+#main-list li{
+    display: inline;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #444444;
+}
+
+/* visited link */
+a:visited {
+    color: #444444;
+}
+
+/* mouse over link */
+a:hover {
+    color: #101010;
+}
+
+/* selected link */
+a:active {
+    color: #101010;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

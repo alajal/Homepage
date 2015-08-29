@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    
+}
+
+.pic{
+    background: white;
+    margin: 0 0 0 15px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    height: 260px;
+}
+
+.text-content {
+    color: black;
+    cursor: pointer;
+    display: table;
+    height: 260px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 400px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.pic:hover .text-content{
+    opacity: 1;
+}
+
+.pic:hover .pic-img{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+    filter: alpha(opacity=50);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.5;               /* Good browsers */
+}
+
+
+.pic-container{
+    height: 290px;
+    width: 430px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.photos{
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 140px;
+    clear: both;
+}
+
+#art-list li {
+    font-weight: bold;
+    font-size: 14px;
+    display: inline;
+    padding-right: 20px;
+}
+
+.art-container{
+    margin-top: 50px;
+    margin-bottom: 10%;
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #444444;
+}
+
+/* visited link */
+a:visited {
+    color: #444444;
+}
+
+/* mouse over link */
+a:hover {
+    color: #101010;
+}
+
+/* selected link */
+a:active {
+    color: #101010;
+}
+
+
+.contact-container{
+    margin-top: 20%;
+    text-align: center;
+    color: #080808;
+    font-size: 14px;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding-left: 0;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0 10px 0;
+}
+
+.details{
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.posters{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
